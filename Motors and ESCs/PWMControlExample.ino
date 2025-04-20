@@ -1,3 +1,4 @@
+// This uses a BK10 Potentiometer to Vary the PWM Signal Input to our ESCs, this is an example used for calibrating the motors and controlling their speeds.
 const int potPin = 34;  // potentiometer connected to ESP32's ADC
 const int escPin = 14; // ESC pin
 

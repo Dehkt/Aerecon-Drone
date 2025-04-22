@@ -28,6 +28,7 @@ Roll is similar to pitch, but the motion occurs along the lateral axis. To roll 
 The final software system will blend two key sources of control input:
 - IMU stabilization data (gyroscope and accelerometer feedback)
 - RC input (commands from the remote control)
+
 (These blended inputs are processed in the main control loop and passed to a PID controller. The PID controller then generates the appropriate PWM signals to adjust motor speeds and ensure stable, responsive flight behavior.)
 
 ## RTOS-Based Task Scheduling
